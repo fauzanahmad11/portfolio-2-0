@@ -171,7 +171,7 @@ body.light .section-head h2 {
 
 body.light .section-head.section-ability {
   color: #ffffff;
-  background-image: url(/img/bg-ability.png);
+  background-image: url("../img/bg-ability.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -303,7 +303,7 @@ body.light .section-works-content {
 
 body.light .section-works-content::before {
   content: '';
-  background-image: url("/img/light-blue-circle.png");
+  background-image: url("../img/light-blue-circle.png");
   background-repeat: no-repeat;
   position: absolute;
   top: -150px;
@@ -574,7 +574,7 @@ body.light .section-previous-portfolio {
 
 body.light .section-previous-portfolio::before {
   content: '';
-  background-image: url("/img/blue-circle.png");
+  background-image: url("../img/blue-circle.png");
   background-repeat: no-repeat;
   position: absolute;
   top: -100px;
@@ -586,7 +586,7 @@ body.light .section-previous-portfolio::before {
 
 body.light .section-previous-portfolio::after {
   content: '';
-  background-image: url("/img/dots.png");
+  background-image: url("../img/dots.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 98% -10px;
