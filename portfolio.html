@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/portfolio-2.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Swiper.js -->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body id="top-page" class="light">
+    <header class="main-header portfolio">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/img/icon/logo-light.png" alt="logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-top-main"
+                    aria-controls="navbar-top-main" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse" id="navbar-top-main">
+                    <button class="navbar-toggler align-self-end mt-4 me-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-top-main" aria-controls="navbar-top-main" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <div class="navbar-toggler-close"></div>
+                    </button>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/blogs.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/contact.html" class="btn btn-gr-light-outline">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- carousel portfolio -->
+        <section class="section-recent-portfolio">
+            <div class="container">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card"
+                                style="background-image:linear-gradient(223deg, rgba(0,0,0,0) 35%, rgba(0,0,0,1) 100%),url(/img/banner/banner-yt.jpg);">
+                                <div class="card-body text-start text-white">
+                                    <h2 class="card-title fw-bold mb-3">YouTube <span>Channel</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card"
+                                style="background-image:linear-gradient(223deg, rgba(0,0,0,0) 35%, rgba(0,0,0,1) 100%),url(/img/banner/banner-logo.jpg);">
+                                <div class="card-body text-start text-white">
+                                    <h2 class="card-title fw-bold mb-3">Logo <span>Design</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card"
+                                style="background-image:linear-gradient(223deg, rgba(0,0,0,0) 35%, rgba(0,0,0,1) 100%),url(https://cdn.dribbble.com/users/4952119/screenshots/16946200/media/e7e114751203c06994b56447705599b3.png);">
+                                <div class="card-body text-start text-white">
+                                    <h2 class="card-title fw-bold mb-3">Portfolio <span>Website</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card"
+                                style="background-image:linear-gradient(223deg, rgba(0,0,0,0) 35%, rgba(0,0,0,1) 100%),url(https://cdn.dribbble.com/users/4952119/screenshots/16997852/media/3010230ca34f58d48dbbf97ebbfda1f3.png);">
+                                <div class="card-body text-start text-white">
+                                    <h2 class="card-title fw-bold mb-3">Car Rental <span>Apps</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card"
+                                style="background-image:linear-gradient(223deg, rgba(0,0,0,0) 35%, rgba(0,0,0,1) 100%),url(https://cdn.dribbble.com/users/4952119/screenshots/16999505/media/25dffe7b48c1a97f214f391efabf1fb9.png);">
+                                <div class="card-body text-start text-white">
+                                    <h2 class="card-title fw-bold mb-3">Travel <span>Apps</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Section recent Project -->
+        <section class="section-recent-project-content mt-5">
+            <div class="container text-center">
+                <nav class="d-flex justify-content-between">
+                    <h2>Portfolio</h2>
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            All
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Programming</a></li>
+                            <li><a class="dropdown-item" href="#">UI Design</a></li>
+                            <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-lg-3">
+                        <div class="card recent-project-item mt-4"
+                            style="background-image: url(https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);">
+                            <div class="card-body">
+                                <small>Design Graphic</small>
+                                <h5>Food Menu</h5>
+                                <div class="divider"></div>
+                                <div class="tech">
+                                    <div class="tech-logo">
+                                        <img src="/img/icon/ic-figma.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta minus aperiam et
+                                    vitae
+                                    animi saepe. Numquam fugiat recusandae vitae voluptatibus, laboriosam itaque.</p>
+                                <a href="#" class="btn btn-gr-yellow">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="card recent-project-item mt-4"
+                            style="background-image: url(https://cdn.dribbble.com/users/4952119/screenshots/16674329/media/ee8faa0e9b9aeffa306475251fd8905b.png?compress=1&resize=1200x900);">
+                            <div class="card-body">
+                                <small>Web Dev</small>
+                                <h5>Food Menu</h5>
+                                <div class="divider"></div>
+                                <div class="tech">
+                                    <div class="tech-logo">
+                                        <img src="/img/logo/bootstrap.png" class="img-fluid">
+                                    </div>
+                                    <div class="tech-logo">
+                                        <img src="/img/logo/laravel.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta minus aperiam et
+                                    vitae
+                                    animi saepe. Numquam fugiat recusandae vitae voluptatibus, laboriosam itaque.</p>
+                                <a href="#" class="btn btn-gr-yellow">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="card recent-project-item mt-4"
+                            style="background-image: url(https://cdn.dribbble.com/users/4952119/screenshots/14718862/media/4147a218ddbae7eb3b28eb7cf1d7a4bd.jpg?compress=1&resize=1200x900);">
+                            <div class="card-body">
+                                <small>Design Graphic</small>
+                                <h5>Food Menu</h5>
+                                <div class="divider"></div>
+                                <div class="tech">
+                                    <div class="tech-logo">
+                                        <img src="/img/logo/bootstrap.png" class="img-fluid">
+                                    </div>
+                                    <div class="tech-logo">
+                                        <img src="/img/logo/laravel.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta minus aperiam et
+                                    vitae
+                                    animi saepe. Numquam fugiat recusandae vitae voluptatibus, laboriosam itaque.</p>
+                                <a href="#" class="btn btn-gr-yellow">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="card recent-project-item mt-4"
+                            style="background-image: url(https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);">
+                            <div class="card-body">
+                                <small>UIUX</small>
+                                <h5>Food Menu</h5>
+                                <div class="divider"></div>
+                                <div class="tech">
+                                    <div class="tech-logo">
+                                        <img src="/img/logo/bootstrap.png" class="img-fluid">
+                                    </div>
+                                    <div class="tech-logo">
+                                        <img src="/img/logo/laravel.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta minus aperiam et
+                                    vitae
+                                    animi saepe. Numquam fugiat recusandae vitae voluptatibus, laboriosam itaque.</p>
+                                <a href="#" class="btn btn-gr-yellow">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row list-first">
+                <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 item brand">
+                    <div>
+                        <div class="brand d-flex align-items-center mb-2">
+                            <img src="/img/icon/logo-light.png" class="img-fluid me-2" alt="logo">
+                            <h2>IT'S ME</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quo ullam assumenda veniam
+                            illum quam eaque tempore, accusantium facere sint nulla vero.</p>
+                        <div class="social-media">
+                            <a href="#" class="link">
+                                <i class="fab fa-instagram fs-1"></i>
+                            </a>
+                            <a href="#" class="link">
+                                <i class="fab fa-dribbble fs-1"></i>
+                            </a>
+                            <a href="#" class="link">
+                                <i class="fab fa-github fs-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 item explore">
+                    <div>
+                        <h2>EXPLORE</h2>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Portfolio</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 item contact">
+                    <div>
+                        <h2>CONTACT</h2>
+                        <ul>
+                            <li>
+                                <i class="fas fa-phone-alt"></i> +62-855-6587-5666
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i> zanworld@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0 item address">
+                    <div>
+                        <h2>ADDRESS</h2>
+                        <ul>
+                            <li>
+                                <i class="fas fa-map-marked-alt"></i>
+                                Sinduadi Mlati
+                            </li>
+                            <li>
+                                Sleman
+                                Yogyakarta
+                            </li>
+                            <li>
+                                Indonesia
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row list-secound">
+                <div class="col-12 text-center">
+                    <small>2021 © Copyright FAFA • All rights reserved • Made in Yogyakarta</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scroll To Top Button -->
+    <button class="scroll-to-top btn position-fixed bottom-0 end-0 me-2 mb-2">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="/js/bootstrap.bundle.js"></script>
+    <script src="/js/portfolio-2.js"></script>
+    <!-- FontAwesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"
+        integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            // freeMode: true,
+            centeredSlides: true,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // autoplay: {
+            //     delay: 2000,
+            // },
+            loop: true,
+        });
+    </script>
+    <!-- Vanilla tilt.js -->
+    <script src="/js/vanilla-tilt.min.js"></script>
+    <script>
+        // Tooltip
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".recent-project-item"), {
+            reverse: false,
+            max: 25,
+            startX: 0,
+            startY: 0,
+            perspective: 1000,
+            scale: 1.1,
+            speed: 300,
+            transition: true,
+            axis: "x",
+            reset: true,
+            easing: "cubic-bezier(.03,.98,.52,.99)",
+            glare: false,
+            "max-glare": 0.3,
+            "glare-prerender": false,
+            "mouse-event-element": null,
+            gyroscope: true,
+            gyroscopeMinAngleX: -45,
+            gyroscopeMaxAngleX: 45,
+            gyroscopeMinAngleY: -45,
+            gyroscopeMaxAngleY: 45,
+        });
+    </script>
+</body>
+
+</html>
