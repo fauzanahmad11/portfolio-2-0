@@ -71,10 +71,11 @@ main{
         color: $cl-dark-blue;
     }
 }
-// p{
-//     font-size: .83em;
-//     letter-spacing: .5px;
-// }
+p{
+    // font-size: .83em;
+    // letter-spacing: .5px;
+    line-height: 30px;
+}
 a{
     font-size: .9em;
 }
@@ -131,7 +132,7 @@ body.light{
             // background-image: linear-gradient(45deg, rgba(253,194,1,1) 0%, rgba(251,148,51,1) 50%, rgba(253,194,1,1) 100%);
             background-size: 450%;
             animation: bg-animate 2s ease-in-out infinite alternate;
-            padding-bottom: 17.2rem;
+            // padding-bottom: 17.2rem;
         }
         .header-content {
             margin-bottom: 9rem;
@@ -649,7 +650,7 @@ body.light{
     
     // ================================== Portfolio ==================================
     .section-recent-portfolio{
-        margin-top: -13rem;
+        margin-top: 2rem;
         .swiper {
             width: 100%;
             height: 100%;
