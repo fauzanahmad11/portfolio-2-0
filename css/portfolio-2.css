@@ -1030,10 +1030,14 @@ body.light .tooltip-inner {
   }
   body.light .section-recent-portfolio .swiper .swiper-pagination {
     top: 106px;
+    padding-left: .5rem;
   }
   body.light .section-recent-portfolio .swiper .swiper-slide .card {
     height: 130px;
     width: 100%;
+  }
+  body.light .section-recent-portfolio .swiper .swiper-slide .card .card-body {
+    padding: .5rem .5rem 0;
   }
   body.light .section-recent-portfolio .swiper .swiper-slide .card .card-body .card-title {
     font-size: 2rem;
@@ -1167,6 +1171,12 @@ body.light .tooltip-inner {
 @media screen and (max-width: 1400px) {
   body.light .section-works-content .macbook-img-preview .swiper-pagination {
     margin-top: -10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body.light .section-recent-portfolio .swiper-slide .card {
+    height: 348px;
   }
 }
 

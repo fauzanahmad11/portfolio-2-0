@@ -866,12 +866,14 @@ body.light{
             .swiper {
                 .swiper-pagination {
                     top: 106px;
+                    padding-left: .5rem;
                 }
                 .swiper-slide {
                     .card {
                         height: 130px;
                         width: 100%;
                         .card-body{
+                            padding: .5rem .5rem 0;
                             .card-title{
                                 font-size: 2rem;
                             }
@@ -1003,6 +1005,11 @@ body.light{
                     margin-top: -10px;
                 }
             }
+        }
+    } 
+    @media screen and (max-width: $xl) {
+        .section-recent-portfolio .swiper-slide .card {
+            height: 348px;
         }
     } 
     // min artinya >= widthnya atau diatas $xxl
