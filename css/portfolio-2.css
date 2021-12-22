@@ -448,7 +448,7 @@ body.light .section-recent-project-content nav .dropdown a {
 }
 
 body.light .section-recent-project-content .recent-project-item {
-  min-height: 350px;
+  min-height: 420px;
   background-size: cover;
   background-position: center;
   border: unset;
