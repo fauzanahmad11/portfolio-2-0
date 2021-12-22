@@ -401,8 +401,8 @@ body.light{
                     width: 100%;
                     background: $gr-yellow;
                     display: block;
-                    transition: transform 200ms 150ms cubic-bezier(.59,.34,.55,-0.19) ;
-                    transform: translateX(-300px);
+                    transition: transform 150ms 150ms cubic-bezier(.59,.34,.55,-0.19) ;
+                    transform: translateX(-120%);
                 }
                 .tech{
                     display: flex;
@@ -650,7 +650,11 @@ body.light{
     
     // ================================== Portfolio ==================================
     .section-recent-portfolio{
-        margin-top: 2rem;
+        background-image: url('../img/bg-ability.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        padding-top: 2rem;
         .swiper {
             width: 100%;
             height: 100%;
@@ -744,6 +748,7 @@ body.light{
     // Break-points
     @media screen and (max-width: $sm) {
         .section-previous-portfolio{
+            margin-top: 1rem;
             &::before,&::after{
                 display: none;
             }
@@ -754,7 +759,7 @@ body.light{
             //     padding: 0;
             // }
             &.portfolio{
-                padding-bottom: 6.2rem;
+                padding-bottom: 0;
             }
             .navbar{
                 .navbar-nav{
@@ -804,6 +809,10 @@ body.light{
             }
         }
         .section-works-content{
+            &::before{
+                content: '';
+                display: none;
+            }
             .macbook-img-preview{
                 .swiper.macbook-img{
                     height: 210px;
@@ -853,7 +862,7 @@ body.light{
             }
         }
         .section-recent-portfolio{
-            margin-top: -4rem;
+            padding-top: 1rem;
             .swiper {
                 .swiper-pagination {
                     top: 106px;
@@ -882,7 +891,7 @@ body.light{
             background: $gr-blue;
             z-index: 20;
             overflow: hidden;
-            transition: 255ms all ease-in-out;
+            transition: 50ms all ease-in-out;
             transform: translateX(-100%);
             width: 100%;
             height: 100vh;

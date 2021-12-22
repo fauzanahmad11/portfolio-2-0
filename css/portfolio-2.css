@@ -496,12 +496,12 @@ body.light .section-recent-project-content .recent-project-item .card-body .divi
   background: -webkit-gradient(linear, left bottom, left top, from(#fb9433), to(#fdc201));
   background: linear-gradient(0deg, #fb9433 0%, #fdc201 100%);
   display: block;
-  -webkit-transition: -webkit-transform 200ms 150ms cubic-bezier(0.59, 0.34, 0.55, -0.19);
-  transition: -webkit-transform 200ms 150ms cubic-bezier(0.59, 0.34, 0.55, -0.19);
-  transition: transform 200ms 150ms cubic-bezier(0.59, 0.34, 0.55, -0.19);
-  transition: transform 200ms 150ms cubic-bezier(0.59, 0.34, 0.55, -0.19), -webkit-transform 200ms 150ms cubic-bezier(0.59, 0.34, 0.55, -0.19);
-  -webkit-transform: translateX(-300px);
-          transform: translateX(-300px);
+  -webkit-transition: -webkit-transform 150ms 150ms cubic-bezier(0.59, 0.34, 0.55, -0.19);
+  transition: -webkit-transform 150ms 150ms cubic-bezier(0.59, 0.34, 0.55, -0.19);
+  transition: transform 150ms 150ms cubic-bezier(0.59, 0.34, 0.55, -0.19);
+  transition: transform 150ms 150ms cubic-bezier(0.59, 0.34, 0.55, -0.19), -webkit-transform 150ms 150ms cubic-bezier(0.59, 0.34, 0.55, -0.19);
+  -webkit-transform: translateX(-120%);
+          transform: translateX(-120%);
 }
 
 body.light .section-recent-project-content .recent-project-item .card-body .tech {
@@ -832,7 +832,11 @@ body.light .scroll-to-top:hover {
 }
 
 body.light .section-recent-portfolio {
-  margin-top: 2rem;
+  background-image: url("../img/bg-ability.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-top: 2rem;
 }
 
 body.light .section-recent-portfolio .swiper {
@@ -931,6 +935,9 @@ body.light .tooltip-inner {
 }
 
 @media screen and (max-width: 576px) {
+  body.light .section-previous-portfolio {
+    margin-top: 1rem;
+  }
   body.light .section-previous-portfolio::before, body.light .section-previous-portfolio::after {
     display: none;
   }
@@ -938,7 +945,7 @@ body.light .tooltip-inner {
     padding: 0 0 5rem;
   }
   body.light .main-header.portfolio {
-    padding-bottom: 6.2rem;
+    padding-bottom: 0;
   }
   body.light .main-header .navbar .navbar-nav .nav-item {
     padding-left: unset;
@@ -968,6 +975,10 @@ body.light .tooltip-inner {
   body.light .section-recent-project-content .recent-project-item:hover .card-body small {
     margin-top: 1.5rem;
     display: block;
+  }
+  body.light .section-works-content::before {
+    content: '';
+    display: none;
   }
   body.light .section-works-content .macbook-img-preview .swiper.macbook-img {
     height: 210px;
@@ -1015,7 +1026,7 @@ body.light .tooltip-inner {
     font-weight: 300;
   }
   body.light .section-recent-portfolio {
-    margin-top: -4rem;
+    padding-top: 1rem;
   }
   body.light .section-recent-portfolio .swiper .swiper-pagination {
     top: 106px;
@@ -1040,8 +1051,8 @@ body.light .tooltip-inner {
     background: linear-gradient(0deg, #0864bb 0%, #1b91ff 100%);
     z-index: 20;
     overflow: hidden;
-    -webkit-transition: 255ms all ease-in-out;
-    transition: 255ms all ease-in-out;
+    -webkit-transition: 50ms all ease-in-out;
+    transition: 50ms all ease-in-out;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     width: 100%;
