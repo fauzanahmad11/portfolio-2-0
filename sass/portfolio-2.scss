@@ -995,6 +995,15 @@ body.light{
             }
         }
     } 
+    // min artinya >= widthnya atau diatas $xxl
+    @media screen and (min-width: $xxl) {
+        .main-header{
+            .header-content {
+                margin-bottom: 9rem;
+                margin-top: 5rem;
+            }
+        }
+    } 
 }
 
 // Animate 

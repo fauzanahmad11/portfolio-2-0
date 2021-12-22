@@ -1156,6 +1156,13 @@ body.light .tooltip-inner {
   }
 }
 
+@media screen and (min-width: 1400px) {
+  body.light .main-header .header-content {
+    margin-bottom: 9rem;
+    margin-top: 5rem;
+  }
+}
+
 @-webkit-keyframes bg-animate {
   0% {
     background-position: left;
