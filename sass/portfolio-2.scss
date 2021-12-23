@@ -663,7 +663,7 @@ body.light{
                 width: 13%;
                 height: 100%;
                 position: absolute;
-                top: -36px;
+                top: -9px;
                 right: 10px;
                 z-index: 2;
             }
@@ -884,23 +884,33 @@ body.light{
                     top: -9px;
                     right: 10px;
                 }
-            }
-            .swiper {
-                .swiper-pagination {
-                    top: 106px;
-                    padding-left: .5rem;
-                }
-                .swiper-slide {
-                    .card {
-                        height: 130px;
-                        width: 100%;
-                        .card-body{
-                            padding: .5rem .5rem 0;
-                            .card-title{
-                                font-size: 2rem;
+                .swiper {
+                    .swiper-pagination {
+                        top: 106px;
+                        padding-left: .5rem;
+                    }
+                    .swiper-slide {
+                        .card {
+                            height: 130px;
+                            width: 100%;
+                            .card-body{
+                                padding: .5rem .5rem 0;
+                                .card-title{
+                                    font-size: 2rem;
+                                }
                             }
                         }
                     }
+                }
+            }
+        }
+    } 
+    @media screen and (max-width: $md) {
+        .section-recent-portfolio{
+            .carousel-portfolio {
+                &::before{
+                    top: -14px;
+                    right: 10px;
                 }
             }
         }
@@ -1019,22 +1029,22 @@ body.light{
                 }
             }
         }
-        .section-recent-portfolio{
-            .carousel-portfolio {
-                &::before{
-                    top: -19px;
-                    right: 10px;
-                }
-            }
-        }
+        // .section-recent-portfolio{
+        //     .carousel-portfolio {
+        //         &::before{
+        //             top: -26px;
+        //             right: 10px;
+        //         }
+        //     }
+        // }
     } 
     @media screen and (max-width: $xl) {
         .section-recent-portfolio{
             .carousel-portfolio {
-                &::before{
-                    top: -26px;
-                    right: 10px;
-                }
+                // &::before{
+                //     top: -26px;
+                //     right: 10px;
+                // }
                 .swiper-slide .card {
                     height: 348px;
                 }
@@ -1049,10 +1059,12 @@ body.light{
                 }
             }
         }
-        .section-recent-portfolio .carousel-portfolio {
-            &::before{
-                top: -32px;
-                right: 10px;
+        .section-recent-portfolio{
+            .carousel-portfolio {
+                // &::before{
+                //     top: -32px;
+                //     right: 10px;
+                // }
             }
         }
     } 
@@ -1064,6 +1076,15 @@ body.light{
                 margin-top: 5rem;
             }
         }
+        .section-recent-portfolio{
+            .carousel-portfolio {
+                &::before{
+                    top: -36px;
+                    right: 10px;
+                }
+            }
+        }
+        
     } 
 }
 

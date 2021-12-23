@@ -840,7 +840,7 @@ body.light .section-recent-portfolio .carousel-portfolio::before {
   width: 13%;
   height: 100%;
   position: absolute;
-  top: -36px;
+  top: -9px;
   right: 10px;
   z-index: 2;
 }
@@ -1038,19 +1038,26 @@ body.light .tooltip-inner {
     top: -9px;
     right: 10px;
   }
-  body.light .section-recent-portfolio .swiper .swiper-pagination {
+  body.light .section-recent-portfolio .carousel-portfolio .swiper .swiper-pagination {
     top: 106px;
     padding-left: .5rem;
   }
-  body.light .section-recent-portfolio .swiper .swiper-slide .card {
+  body.light .section-recent-portfolio .carousel-portfolio .swiper .swiper-slide .card {
     height: 130px;
     width: 100%;
   }
-  body.light .section-recent-portfolio .swiper .swiper-slide .card .card-body {
+  body.light .section-recent-portfolio .carousel-portfolio .swiper .swiper-slide .card .card-body {
     padding: .5rem .5rem 0;
   }
-  body.light .section-recent-portfolio .swiper .swiper-slide .card .card-body .card-title {
+  body.light .section-recent-portfolio .carousel-portfolio .swiper .swiper-slide .card .card-body .card-title {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body.light .section-recent-portfolio .carousel-portfolio::before {
+    top: -14px;
+    right: 10px;
   }
 }
 
@@ -1176,17 +1183,9 @@ body.light .tooltip-inner {
   body.light .section-works-content .macbook-img-preview .swiper-pagination {
     margin-top: 33px;
   }
-  body.light .section-recent-portfolio .carousel-portfolio::before {
-    top: -19px;
-    right: 10px;
-  }
 }
 
 @media screen and (max-width: 1200px) {
-  body.light .section-recent-portfolio .carousel-portfolio::before {
-    top: -26px;
-    right: 10px;
-  }
   body.light .section-recent-portfolio .carousel-portfolio .swiper-slide .card {
     height: 348px;
   }
@@ -1196,16 +1195,16 @@ body.light .tooltip-inner {
   body.light .section-works-content .macbook-img-preview .swiper-pagination {
     margin-top: -10px;
   }
-  body.light .section-recent-portfolio .carousel-portfolio::before {
-    top: -32px;
-    right: 10px;
-  }
 }
 
 @media screen and (min-width: 1400px) {
   body.light .main-header .header-content {
     margin-bottom: 9rem;
     margin-top: 5rem;
+  }
+  body.light .section-recent-portfolio .carousel-portfolio::before {
+    top: -36px;
+    right: 10px;
   }
 }
 
