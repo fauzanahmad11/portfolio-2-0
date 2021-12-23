@@ -796,7 +796,7 @@ body.light{
         .section-recent-project-content{
             .recent-project-item{
                 .card-body{
-                    transform: translate3d(0, 80%, 0) !important;
+                    transform: translate3d(0, 84.5%, 0) !important;
                 }
                 &:hover{
                     .card-body{
@@ -862,7 +862,7 @@ body.light{
             }
         }
         .section-recent-portfolio{
-            padding-top: 1rem;
+            padding-top:.5rem;
             .swiper {
                 .swiper-pagination {
                     top: 106px;

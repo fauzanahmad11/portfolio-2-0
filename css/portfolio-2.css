@@ -969,8 +969,8 @@ body.light .tooltip-inner {
     width: 70%;
   }
   body.light .section-recent-project-content .recent-project-item .card-body {
-    -webkit-transform: translate3d(0, 80%, 0) !important;
-            transform: translate3d(0, 80%, 0) !important;
+    -webkit-transform: translate3d(0, 84.5%, 0) !important;
+            transform: translate3d(0, 84.5%, 0) !important;
   }
   body.light .section-recent-project-content .recent-project-item:hover .card-body small {
     margin-top: 1.5rem;
@@ -1026,7 +1026,7 @@ body.light .tooltip-inner {
     font-weight: 300;
   }
   body.light .section-recent-portfolio {
-    padding-top: 1rem;
+    padding-top: .5rem;
   }
   body.light .section-recent-portfolio .swiper .swiper-pagination {
     top: 106px;
