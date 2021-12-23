@@ -441,29 +441,32 @@
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
-        //It also supports NodeList
-        VanillaTilt.init(document.querySelectorAll(".recent-project-item"), {
-            reverse: false,
-            max: 25,
-            startX: 0,
-            startY: 0,
-            perspective: 1000,
-            scale: 1,
-            speed: 2000,
-            transition: true,
-            axis: null,
-            reset: true,
-            easing: "cubic-bezier(.03,.98,.52,.99)",
-            glare: false,
-            "max-glare": 0.3,
-            "glare-prerender": false,
-            "mouse-event-element": null,
-            gyroscope: true,
-            gyroscopeMinAngleX: -60,
-            gyroscopeMaxAngleX: 60,
-            gyroscopeMinAngleY: -60,
-            gyroscopeMaxAngleY: 60,
-        });
+        const mQuery = window.matchMedia('(min-width: 768px)');
+        if (mQuery.matches) {
+            //It also supports NodeList
+            VanillaTilt.init(document.querySelectorAll(".recent-project-item"), {
+                reverse: false,
+                max: 25,
+                startX: 0,
+                startY: 0,
+                perspective: 1000,
+                scale: 1,
+                speed: 2000,
+                transition: true,
+                axis: null,
+                reset: true,
+                easing: "cubic-bezier(.03,.98,.52,.99)",
+                glare: false,
+                "max-glare": 0.3,
+                "glare-prerender": false,
+                "mouse-event-element": null,
+                gyroscope: true,
+                gyroscopeMinAngleX: -60,
+                gyroscopeMaxAngleX: 60,
+                gyroscopeMinAngleY: -60,
+                gyroscopeMaxAngleY: 60,
+            });
+        }
     </script>
 </body>
 
