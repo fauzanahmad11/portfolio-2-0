@@ -766,6 +766,9 @@ body.light{
             &::before,&::after{
                 display: none;
             }
+            img.pre-portfolio{
+                width: 70%;
+            }
         }
         .main-header{
             padding: 0 0 5rem;
@@ -802,18 +805,11 @@ body.light{
                 }
             }
         }
-        .section-previous-portfolio{
-            img.pre-portfolio{
-                width: 70%;
-            }
-        }
         .section-recent-project-content{
             .recent-project-item{
-                .card-body{
-                    transform: translate3d(0, 84.5%, 0) !important;
-                }
                 &:hover{
                     .card-body{
+                        transform: translateY(0) !important;
                         small{
                             margin-top: 1.5rem;
                             display: block;
@@ -876,8 +872,9 @@ body.light{
             }
         }
         .section-recent-portfolio{
-            background-image: url('../img/bg-ability-mobile.png');
-            padding-top:.5rem;
+            // background-image: url('../img/bg-ability-mobile.png');
+            background-image: none;
+            margin-top:-.3rem;
             
             .carousel-portfolio {
                 &::before{

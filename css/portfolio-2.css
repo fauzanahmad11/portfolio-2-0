@@ -946,6 +946,9 @@ body.light .tooltip-inner {
   body.light .section-previous-portfolio::before, body.light .section-previous-portfolio::after {
     display: none;
   }
+  body.light .section-previous-portfolio img.pre-portfolio {
+    width: 70%;
+  }
   body.light .main-header {
     padding: 0 0 5rem;
   }
@@ -970,12 +973,9 @@ body.light .tooltip-inner {
     margin: 0 12px;
     text-decoration: none;
   }
-  body.light .section-previous-portfolio img.pre-portfolio {
-    width: 70%;
-  }
-  body.light .section-recent-project-content .recent-project-item .card-body {
-    -webkit-transform: translate3d(0, 84.5%, 0) !important;
-            transform: translate3d(0, 84.5%, 0) !important;
+  body.light .section-recent-project-content .recent-project-item:hover .card-body {
+    -webkit-transform: translateY(0) !important;
+            transform: translateY(0) !important;
   }
   body.light .section-recent-project-content .recent-project-item:hover .card-body small {
     margin-top: 1.5rem;
@@ -1031,8 +1031,8 @@ body.light .tooltip-inner {
     font-weight: 300;
   }
   body.light .section-recent-portfolio {
-    background-image: url("../img/bg-ability-mobile.png");
-    padding-top: .5rem;
+    background-image: none;
+    margin-top: -.3rem;
   }
   body.light .section-recent-portfolio .carousel-portfolio::before {
     top: -9px;
