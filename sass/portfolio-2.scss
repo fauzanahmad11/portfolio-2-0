@@ -267,14 +267,20 @@ body.light{
         }
         .macbook-img-preview{
             position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
             img{
                 position: absolute;
                 z-index: 2;
+                width: 100%;
             }
             .swiper.macbook-img{
                 max-width: 100%;
                 width: 80%;
-                height: 350px;
+                height: 427px;
+                margin-top: 21px;
                 border-radius: 20px;
                 .swiper-wrapper{
                     .swiper-slide{
@@ -286,6 +292,7 @@ body.light{
             }
             .swiper-pagination{
                 margin-top: 30px;
+                bottom: -20px;
                 position: relative;
                 .swiper-pagination-bullet{
                     &.swiper-pagination-bullet-active{
@@ -514,13 +521,13 @@ body.light{
                         li{
                             display: list-item;
                             padding: .5rem 0;
-                            color: #1e4785;
+                            color: #33517c;
                         }
                     }
                 }
                 &.explore{
                     .nav-link{
-                        color: #1e4785;
+                        color: #33517c;
                         &:hover{
                             color: $cl-yellow;
                         }
@@ -832,6 +839,7 @@ body.light{
                 }
                 .swiper-pagination{
                     margin-top: 5px;
+                    bottom: -30px !important;
                 }
             }
         }
@@ -1074,13 +1082,6 @@ body.light{
                 }
             }
         }
-        .section-works-content{
-            .macbook-img-preview{
-                .swiper-pagination{
-                    margin-top: 33px;
-                }
-            }
-        }
         // .section-recent-portfolio{
         //     .carousel-portfolio {
         //         &::before{
@@ -1099,6 +1100,14 @@ body.light{
                 // }
                 .swiper-slide .card {
                     height: 348px;
+                }
+            }
+        }
+        .section-works-content{
+            .macbook-img-preview{
+                .swiper-pagination{
+                    margin-top: 33px;
+                    bottom: -12px;
                 }
             }
         }

@@ -314,17 +314,32 @@ body.light .section-works-content::before {
 
 body.light .section-works-content .macbook-img-preview {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 body.light .section-works-content .macbook-img-preview img {
   position: absolute;
   z-index: 2;
+  width: 100%;
 }
 
 body.light .section-works-content .macbook-img-preview .swiper.macbook-img {
   max-width: 100%;
   width: 80%;
-  height: 350px;
+  height: 427px;
+  margin-top: 21px;
   border-radius: 20px;
 }
 
@@ -334,6 +349,7 @@ body.light .section-works-content .macbook-img-preview .swiper.macbook-img .swip
 
 body.light .section-works-content .macbook-img-preview .swiper-pagination {
   margin-top: 30px;
+  bottom: -20px;
   position: relative;
 }
 
@@ -637,11 +653,11 @@ body.light footer .list-first .item.contact ul, body.light footer .list-first .i
 body.light footer .list-first .item.contact ul li, body.light footer .list-first .item.address ul li {
   display: list-item;
   padding: .5rem 0;
-  color: #1e4785;
+  color: #33517c;
 }
 
 body.light footer .list-first .item.explore .nav-link {
-  color: #1e4785;
+  color: #33517c;
 }
 
 body.light footer .list-first .item.explore .nav-link:hover {
@@ -990,6 +1006,7 @@ body.light .tooltip-inner {
   }
   body.light .section-works-content .macbook-img-preview .swiper-pagination {
     margin-top: 5px;
+    bottom: -30px !important;
   }
   body.light footer .list-first {
     padding: 50px 0;
@@ -1242,14 +1259,15 @@ body.light .tooltip-inner {
     font-size: .7em;
     font-weight: 300;
   }
-  body.light .section-works-content .macbook-img-preview .swiper-pagination {
-    margin-top: 33px;
-  }
 }
 
 @media screen and (max-width: 1200px) {
   body.light .section-recent-portfolio .carousel-portfolio .swiper-slide .card {
     height: 348px;
+  }
+  body.light .section-works-content .macbook-img-preview .swiper-pagination {
+    margin-top: 33px;
+    bottom: -12px;
   }
 }
 
