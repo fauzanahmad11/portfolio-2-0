@@ -436,13 +436,13 @@
     <!-- Vanilla tilt.js -->
     <script src="js/vanilla-tilt.min.js"></script>
     <script>
-        // Tooltip
-        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-            return new bootstrap.Tooltip(tooltipTriggerEl)
-        })
         const mQuery = window.matchMedia('(min-width: 768px)');
         if (mQuery.matches) {
+            // Tooltip
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            });
             //It also supports NodeList
             VanillaTilt.init(document.querySelectorAll(".recent-project-item"), {
                 reverse: false,

@@ -637,11 +637,11 @@ body.light footer .list-first .item.contact ul, body.light footer .list-first .i
 body.light footer .list-first .item.contact ul li, body.light footer .list-first .item.address ul li {
   display: list-item;
   padding: .5rem 0;
-  color: #466eaa;
+  color: #1e4785;
 }
 
 body.light footer .list-first .item.explore .nav-link {
-  color: #466eaa;
+  color: #1e4785;
 }
 
 body.light footer .list-first .item.explore .nav-link:hover {
