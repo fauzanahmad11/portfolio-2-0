@@ -72,10 +72,6 @@ p {
   line-height: 30px;
 }
 
-a {
-  font-size: .9em;
-}
-
 body.light {
   background: linear-gradient(90deg, #ffffff 29px, transparent 1%) center, linear-gradient(#ffffff 29px, transparent 1%) center, #ececec;
   background-size: 31.2px 31.2px;
@@ -287,14 +283,14 @@ body.light .section-ability-content .list-ability .item[data-pos="-3"] {
 }
 
 body.light .section-ability-content .list-ability .item[data-pos="4"] {
-  -webkit-transform: translate(320%, -20%) scale(0.2);
-          transform: translate(320%, -20%) scale(0.2);
+  -webkit-transform: translate(320%, -13%) scale(0.2);
+          transform: translate(320%, -13%) scale(0.2);
   z-index: 7;
 }
 
 body.light .section-ability-content .list-ability .item[data-pos="-4"] {
-  -webkit-transform: translate(-320%, -20%) scale(0.2);
-          transform: translate(-320%, -20%) scale(0.2);
+  -webkit-transform: translate(-320%, -18%) scale(0.2);
+          transform: translate(-320%, -18%) scale(0.2);
   z-index: 7;
 }
 
@@ -641,7 +637,11 @@ body.light footer .list-first .item.contact ul, body.light footer .list-first .i
 body.light footer .list-first .item.contact ul li, body.light footer .list-first .item.address ul li {
   display: list-item;
   padding: .5rem 0;
-  font-size: .9em;
+  color: #466eaa;
+}
+
+body.light footer .list-first .item.explore .nav-link {
+  color: #466eaa;
 }
 
 body.light footer .list-first .item.explore .nav-link:hover {
@@ -1052,6 +1052,68 @@ body.light .tooltip-inner {
   body.light .section-recent-portfolio .carousel-portfolio .swiper .swiper-slide .card .card-body .card-title {
     font-size: 2rem;
   }
+  body.light .section-head.section-ability {
+    background-image: url("../img/bg-ability-mobile-2.png");
+  }
+  body.light .section-ability-content {
+    margin-top: -6rem;
+    margin-bottom: 200px;
+  }
+  body.light .section-ability-content .list-ability {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+  }
+  body.light .section-ability-content .list-ability .item img {
+    height: 70%;
+  }
+  body.light .section-ability-content .list-ability .item[data-pos="0"] {
+    z-index: 9;
+  }
+  body.light .section-ability-content .list-ability .item[data-pos="1"] {
+    -webkit-transform: translate(110%, -10%) scale(0.8);
+            transform: translate(110%, -10%) scale(0.8);
+    z-index: 8;
+  }
+  body.light .section-ability-content .list-ability .item[data-pos="-1"] {
+    -webkit-transform: translate(-110%, -10%) scale(0.8);
+            transform: translate(-110%, -10%) scale(0.8);
+    z-index: 8;
+  }
+  body.light .section-ability-content .list-ability .item[data-pos="2"] {
+    -webkit-transform: translate(200%, -35%) scale(0.6);
+            transform: translate(200%, -35%) scale(0.6);
+    z-index: 7;
+  }
+  body.light .section-ability-content .list-ability .item[data-pos="-2"] {
+    -webkit-transform: translate(-200%, -35%) scale(0.6);
+            transform: translate(-200%, -35%) scale(0.6);
+    z-index: 7;
+  }
+  body.light .section-ability-content .list-ability .item[data-pos="3"] {
+    -webkit-transform: translate(270%, -61%) scale(0.4);
+            transform: translate(270%, -61%) scale(0.4);
+    z-index: 7;
+  }
+  body.light .section-ability-content .list-ability .item[data-pos="-3"] {
+    -webkit-transform: translate(-270%, -61%) scale(0.4);
+            transform: translate(-270%, -61%) scale(0.4);
+    z-index: 7;
+  }
+  body.light .section-ability-content .list-ability .item[data-pos="4"] {
+    -webkit-transform: translate(320%, -85%) scale(0.2);
+            transform: translate(320%, -85%) scale(0.2);
+    z-index: 7;
+  }
+  body.light .section-ability-content .list-ability .item[data-pos="-4"] {
+    -webkit-transform: translate(-320%, -77%) scale(0.2);
+            transform: translate(-320%, -77%) scale(0.2);
+    z-index: 7;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1198,6 +1260,9 @@ body.light .tooltip-inner {
 }
 
 @media screen and (min-width: 1400px) {
+  body.light .section-ability-content {
+    margin-top: -7.1rem;
+  }
   body.light .main-header .header-content {
     margin-bottom: 9rem;
     margin-top: 5rem;
