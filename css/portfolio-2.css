@@ -1022,24 +1022,31 @@ body.light .tooltip-inner {
   }
   body.light .main-header .hero .hero-item.star-1 {
     background-position: 63px 84px !important;
+    background-size: 6%;
   }
   body.light .main-header .hero .hero-item.star-2 {
     background-position: 257px 256px !important;
+    background-size: 4%;
   }
   body.light .main-header .hero .hero-item.star-3 {
     background-position: 118px 127px !important;
+    background-size: 4%;
   }
   body.light .main-header .hero .hero-item.dot-1 {
-    background-position: 94px 171px !important;
+    background-position: 94px 168px !important;
+    background-size: 2%;
   }
   body.light .main-header .hero .hero-item.dot-2 {
     background-position: 121px 75px !important;
+    background-size: 2.5%;
   }
   body.light .main-header .hero .hero-item.dot-3 {
     background-position: 228px ​125px !important;
+    background-size: 6%;
   }
   body.light .main-header .hero .hero-item.circle-1 {
-    background-position: 270px 64px !important;
+    background-position: 280px 85px !important;
+    background-size: 10%;
   }
 }
 
