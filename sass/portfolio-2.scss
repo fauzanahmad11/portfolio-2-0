@@ -640,6 +640,9 @@ body.light{
         box-shadow: none !important;
         background-color: rgba(0, 0, 0, .5);
         color: $text-primary;
+        bottom: 20px;  
+        right: 20px;
+        position: fixed;
         &:active,&:focus{
             outline: none !important;
             border: none !important;
