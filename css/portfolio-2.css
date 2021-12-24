@@ -97,6 +97,68 @@ body.light::-webkit-scrollbar-thumb {
   border-radius: .35em;
 }
 
+body.light .navbar-toggler.custome {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: unset;
+}
+
+body.light .navbar-toggler.custome:focus {
+  outline: unset;
+  text-decoration: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body.light .navbar-toggler.custome::before, body.light .navbar-toggler.custome::after {
+  content: "";
+  display: block;
+  top: 0;
+  right: 0;
+  width: 32px;
+  height: 3px;
+  background-color: #ffffff;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+body.light .navbar-toggler.custome::before {
+  margin-bottom: 8px;
+  width: 38px;
+}
+
+body.light .navbar-toggler.custome::after {
+  width: 25px;
+}
+
+body.light .navbar-toggler.custome .navbar-toggler-icon-custome-1 {
+  top: 0;
+  right: 0;
+  display: block;
+  width: 32px;
+  height: 3px;
+  background-color: #ffffff;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  margin-bottom: 8px;
+}
+
+body.light .navbar-toggler.custome:hover::before, body.light .navbar-toggler.custome:hover::after {
+  width: 32px;
+}
+
 body.light .main-header {
   background: -webkit-gradient(linear, left top, left bottom, from(#006ACA), to(#1081E8));
   background: linear-gradient(180deg, #006ACA 0%, #1081E8 100%);
@@ -347,7 +409,7 @@ body.light .section-works-content {
 
 body.light .section-works-content::before {
   content: '';
-  background-image: url("../img/light-blue-circle.png");
+  background-image: url("../img/dotsmany.png");
   background-repeat: no-repeat;
   position: absolute;
   top: -150px;
@@ -360,7 +422,7 @@ body.light .section-works-content::before {
 
 body.light .section-works-content::after {
   content: '';
-  background-image: url("../img/blue-circle.png");
+  background-image: url("../img/light-blue-circle.png");
   background-repeat: no-repeat;
   background-position: 113% 56px;
   position: absolute;
@@ -1300,7 +1362,7 @@ body.light .tooltip-inner {
   }
   body.light .navbar .navbar-collapse.show .navbar-toggler .navbar-toggler-close {
     width: 32px;
-    height: 2px;
+    height: 3px;
     display: block;
     top: 0;
     left: 0;
@@ -1312,7 +1374,7 @@ body.light .tooltip-inner {
   body.light .navbar .navbar-collapse.show .navbar-toggler .navbar-toggler-close::after {
     content: "";
     width: 32px;
-    height: 2px;
+    height: 3px;
     display: block;
     top: 0;
     left: 0;

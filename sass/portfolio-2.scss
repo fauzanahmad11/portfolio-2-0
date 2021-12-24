@@ -101,6 +101,53 @@ body.light{
         background-color: rgb(202, 202, 202);
         border-radius: .35em;
     }
+    .navbar-toggler.custome{
+        position: relative;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        flex-direction: column;
+        border: unset;
+        &:focus{
+            outline: unset;
+            text-decoration: none;
+            box-shadow: none
+        }
+
+        &::before,&::after{
+            content: "";
+            display: block;
+            top: 0;
+            right: 0;
+            width: 32px;
+            height: 3px;
+            background-color: $cl-light;
+            transition: all 200ms ease-in-out;
+        }
+        &::before{
+            margin-bottom: 8px;
+            width: 38px;
+        }
+        &::after{
+            width: 25px;
+        }
+        .navbar-toggler-icon-custome-1{
+            // position: absolute;
+            top: 0;
+            right: 0;
+            display: block;
+            width: 32px;
+            height: 3px;
+            background-color: $cl-light;
+            transition: all 200ms ease-in-out;
+            margin-bottom: 8px;
+        }
+        &:hover{
+            &::before,&::after{
+                width: 32px;
+            }
+        }
+    }
     .main-header{
         background: linear-gradient(180deg, #006ACA 0%, #1081E8 100%);
         padding: 2rem 0;
@@ -290,7 +337,7 @@ body.light{
         position: relative;
         &::before{
             content: '';
-            background-image: url("../img/light-blue-circle.png");
+            background-image: url("../img/dotsmany.png");
             background-repeat: no-repeat;
             position: absolute;
             top: -150px;
@@ -302,7 +349,7 @@ body.light{
         }
         &::after{
             content: '';
-            background-image: url("../img/blue-circle.png");
+            background-image: url("../img/light-blue-circle.png");
             background-repeat: no-repeat;
             // background-size: contain;
             background-position: 113% 56px;
@@ -1113,7 +1160,7 @@ body.light{
                     }
                     .navbar-toggler-close{
                         width: 32px;
-                        height: 2px;
+                        height: 3px;
                         display: block;
                         top: 0;
                         left: 0;
@@ -1123,7 +1170,7 @@ body.light{
                         &::after{
                             content: "";
                             width: 32px;
-                            height: 2px;
+                            height: 3px;
                             display: block;
                             top: 0;
                             left: 0;
