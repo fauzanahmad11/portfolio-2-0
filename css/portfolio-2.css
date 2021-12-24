@@ -154,6 +154,8 @@ body.light .main-header .hero .hero-item.dot-3 {
 body.light .main-header .hero .hero-item.circle-1 {
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   background-position: 414px 184px;
   -webkit-animation: rotate360 2s ease-in-out infinite;
           animation: rotate360 2s ease-in-out infinite;
