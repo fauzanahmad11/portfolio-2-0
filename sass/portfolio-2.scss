@@ -183,7 +183,7 @@ body.light{
     }
     .section-ability-content{
         margin-top: -7.5rem;
-        margin-bottom: 200px;
+        margin-bottom: 230px;
         .list-ability{
             display: flex;
             justify-content: space-between;
@@ -251,7 +251,7 @@ body.light{
         }
     }
     .section-works-content{
-        margin-bottom: 130px;
+        margin-bottom: 210px;
         position: relative;
         &::before{
             content: '';
@@ -268,7 +268,7 @@ body.light{
         .macbook-img-preview{
             position: relative;
             display: flex;
-            justify-content: center;
+            justify-content: start;
             align-items: center;
             flex-direction: column;
             img{
@@ -280,12 +280,7 @@ body.light{
                 max-width: 100%;
                 width: 80%;
                 height: 427px;
-                margin-top: 21px;
-                border-radius: 20px;
-                .swiper-wrapper{
-                    .swiper-slide{
-                    }
-                }
+                margin-top: 10px;
                 .swiper-button-next,.swiper-button-prev{
                     display: none;
                 }
@@ -306,7 +301,7 @@ body.light{
         }
     }
     .section-service-content{
-        margin-bottom: 130px;
+        margin-bottom: 230px;
         .service-item{
             margin-top: 30px;
             padding: 30px 20px;
@@ -370,7 +365,7 @@ body.light{
         }
     }
     .section-recent-project-content{
-        margin-bottom: 130px;
+        margin-bottom: 230px;
         nav{
             display: none;
             color: $cl-dark-blue;
@@ -458,7 +453,7 @@ body.light{
         }
     }
     .section-previous-portfolio{
-        margin-bottom: 130px;
+        margin-bottom: 230px;
         position: relative;
         // background: red;
         &::before{
@@ -835,7 +830,7 @@ body.light{
             }
             .macbook-img-preview{
                 .swiper.macbook-img{
-                    height: 210px;
+                    height: 176px !important;
                 }
                 .swiper-pagination{
                     margin-top: 5px;
@@ -1105,6 +1100,9 @@ body.light{
         }
         .section-works-content{
             .macbook-img-preview{
+                .swiper.macbook-img{
+                    height: 292px;
+                }
                 .swiper-pagination{
                     margin-top: 33px;
                     bottom: -12px;
@@ -1145,6 +1143,13 @@ body.light{
                 &::before{
                     top: -36px;
                     right: 10px;
+                }
+            }
+        }
+        .section-works-content{
+            .macbook-img-preview{
+                .swiper-pagination{
+                    bottom: -40px;
                 }
             }
         }

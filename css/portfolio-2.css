@@ -191,7 +191,7 @@ body.light .section-head.section-works {
 
 body.light .section-ability-content {
   margin-top: -7.5rem;
-  margin-bottom: 200px;
+  margin-bottom: 230px;
 }
 
 body.light .section-ability-content .list-ability {
@@ -295,7 +295,7 @@ body.light .section-ability-content .list-ability .item[data-pos="-4"] {
 }
 
 body.light .section-works-content {
-  margin-bottom: 130px;
+  margin-bottom: 210px;
   position: relative;
 }
 
@@ -317,9 +317,9 @@ body.light .section-works-content .macbook-img-preview {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -339,8 +339,7 @@ body.light .section-works-content .macbook-img-preview .swiper.macbook-img {
   max-width: 100%;
   width: 80%;
   height: 427px;
-  margin-top: 21px;
-  border-radius: 20px;
+  margin-top: 10px;
 }
 
 body.light .section-works-content .macbook-img-preview .swiper.macbook-img .swiper-button-next, body.light .section-works-content .macbook-img-preview .swiper.macbook-img .swiper-button-prev {
@@ -363,7 +362,7 @@ body.light .section-works-content .macbook-img-preview .swiper-pagination .swipe
 }
 
 body.light .section-service-content {
-  margin-bottom: 130px;
+  margin-bottom: 230px;
 }
 
 body.light .section-service-content .service-item {
@@ -444,7 +443,7 @@ body.light .section-service-content .service-item:hover::after {
 }
 
 body.light .section-recent-project-content {
-  margin-bottom: 130px;
+  margin-bottom: 230px;
 }
 
 body.light .section-recent-project-content nav {
@@ -572,7 +571,7 @@ body.light .section-recent-project-content .recent-project-item:hover .card-body
 }
 
 body.light .section-previous-portfolio {
-  margin-bottom: 130px;
+  margin-bottom: 230px;
   position: relative;
 }
 
@@ -1002,7 +1001,7 @@ body.light .tooltip-inner {
     display: none;
   }
   body.light .section-works-content .macbook-img-preview .swiper.macbook-img {
-    height: 210px;
+    height: 176px !important;
   }
   body.light .section-works-content .macbook-img-preview .swiper-pagination {
     margin-top: 5px;
@@ -1265,6 +1264,9 @@ body.light .tooltip-inner {
   body.light .section-recent-portfolio .carousel-portfolio .swiper-slide .card {
     height: 348px;
   }
+  body.light .section-works-content .macbook-img-preview .swiper.macbook-img {
+    height: 292px;
+  }
   body.light .section-works-content .macbook-img-preview .swiper-pagination {
     margin-top: 33px;
     bottom: -12px;
@@ -1288,6 +1290,9 @@ body.light .tooltip-inner {
   body.light .section-recent-portfolio .carousel-portfolio::before {
     top: -36px;
     right: 10px;
+  }
+  body.light .section-works-content .macbook-img-preview .swiper-pagination {
+    bottom: -40px;
   }
 }
 
