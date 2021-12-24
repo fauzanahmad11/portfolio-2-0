@@ -111,54 +111,40 @@ body.light .main-header .hero .hero-item {
   height: 100%;
   background-repeat: no-repeat;
   position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   -webkit-animation: upDown 2s ease-in-out infinite;
           animation: upDown 2s ease-in-out infinite;
 }
 
 body.light .main-header .hero .hero-item.star-1 {
-  top: 0;
-  left: 0;
   background-position: 26px 153px;
 }
 
 body.light .main-header .hero .hero-item.star-2 {
-  left: 0;
-  bottom: 0;
   background-position: 389px 448px;
 }
 
 body.light .main-header .hero .hero-item.star-3 {
-  top: 0;
-  left: 0;
   background-position: 149px 177px;
 }
 
 body.light .main-header .hero .hero-item.dot-1 {
-  top: 0;
-  left: 0;
   background-position: 74px 302px;
 }
 
 body.light .main-header .hero .hero-item.dot-2 {
-  left: 0;
-  top: 0;
   background-position: 105px 133px;
 }
 
 body.light .main-header .hero .hero-item.dot-3 {
-  top: 0;
-  left: 0;
   background-position: 374px 257px;
 }
 
 body.light .main-header .hero .hero-item.circle-1 {
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   background-position: 414px 184px;
-  -webkit-animation: rotate360 2s ease-in-out infinite;
-          animation: rotate360 2s ease-in-out infinite;
 }
 
 body.light .main-header .navbar .navbar-nav .nav-item {
@@ -1041,6 +1027,30 @@ body.light .tooltip-inner {
   }
   body.light .main-header {
     padding: 0 0 5rem;
+  }
+  body.light .main-header .hero {
+    position: relative;
+  }
+  body.light .main-header .hero .hero-item.star-1 {
+    background-position: 76px 111px;
+  }
+  body.light .main-header .hero .hero-item.star-2 {
+    background-position: 340px 326px;
+  }
+  body.light .main-header .hero .hero-item.star-3 {
+    background-position: 150px 149px;
+  }
+  body.light .main-header .hero .hero-item.dot-1 {
+    background-position: 74px 302px;
+  }
+  body.light .main-header .hero .hero-item.dot-2 {
+    background-position: 155px 91px;
+  }
+  body.light .main-header .hero .hero-item.dot-3 {
+    background-position: 374px 257px;
+  }
+  body.light .main-header .hero .hero-item.circle-1 {
+    background-position: 345px 93px;
   }
   body.light .main-header.portfolio {
     padding-bottom: 0;

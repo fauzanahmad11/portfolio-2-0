@@ -111,44 +111,46 @@ body.light{
                 height: 100%;
                 background-repeat: no-repeat;
                 position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;  
+                right: 0;
                 animation: upDown 2s ease-in-out infinite;
                 &.star-1{
-                    top: 0;
-                    left: 0;
+                    // top: 0;
+                    // left: 0;
                     background-position: 26px 153px;
                 }
                 &.star-2{
-                    left: 0;
-                    bottom: 0;
+                    // left: 0;
+                    // bottom: 0;
                     background-position: 389px 448px;
                 }
                 &.star-3{
-                    top: 0;
-                    left: 0;
+                    // top: 0;
+                    // left: 0;
                     background-position: 149px 177px;
                 }
                 &.dot-1{
-                    top: 0;
-                    left: 0;
+                    // top: 0;
+                    // left: 0;
                     background-position: 74px 302px;
                 }
                 &.dot-2{
-                    left: 0;
-                    top: 0;
+                    // left: 0;
+                    // top: 0;
                     background-position: 105px 133px;
                 }
                 &.dot-3{
-                    top: 0;
-                    left: 0;
+                    // top: 0;
+                    // left: 0;
                     background-position: 374px 257px;
                 }
                 &.circle-1{
-                    top: 0;
-                    left: 0;
-                    bottom: 0;  
-                    right: 0;
+                    // top: 0;
+                    // left: 0;
                     background-position: 414px 184px;
-                    animation: rotate360 2s ease-in-out infinite;
+                    // animation: rotate360 2s ease-in-out infinite;
                 }
             }
         }
@@ -843,6 +845,33 @@ body.light{
             // &:not(.main){
             //     padding: 0;
             // }
+            
+        .hero{
+            position: relative;
+            .hero-item{
+                &.star-1{
+                    background-position: 76px 111px;
+                }
+                &.star-2{
+                    background-position: 340px 326px;
+                }
+                &.star-3{
+                    background-position: 150px 149px;
+                }
+                &.dot-1{
+                    background-position: 74px 302px;
+                }
+                &.dot-2{
+                    background-position: 155px 91px;
+                }
+                &.dot-3{
+                    background-position: 374px 257px;
+                }
+                &.circle-1{
+                    background-position: 345px 93px;
+                }
+            }
+        }
             &.portfolio{
                 padding-bottom: 0;
             }
