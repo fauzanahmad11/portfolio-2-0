@@ -117,38 +117,24 @@ body.light{
                 right: 0;
                 animation: upDown 2s ease-in-out infinite;
                 &.star-1{
-                    // top: 0;
-                    // left: 0;
                     background-position: 26px 153px;
                 }
                 &.star-2{
-                    // left: 0;
-                    // bottom: 0;
                     background-position: 389px 448px;
                 }
                 &.star-3{
-                    // top: 0;
-                    // left: 0;
                     background-position: 149px 177px;
                 }
                 &.dot-1{
-                    // top: 0;
-                    // left: 0;
                     background-position: 74px 302px;
                 }
                 &.dot-2{
-                    // left: 0;
-                    // top: 0;
                     background-position: 105px 133px;
                 }
                 &.dot-3{
-                    // top: 0;
-                    // left: 0;
                     background-position: 374px 257px;
                 }
                 &.circle-1{
-                    // top: 0;
-                    // left: 0;
                     background-position: 414px 184px;
                     // animation: rotate360 2s ease-in-out infinite;
                 }
@@ -953,7 +939,7 @@ body.light{
             }
         }
         .section-works-content{
-            &::before{
+            &::before,&::after{
                 content: '';
                 display: none;
             }
@@ -1245,14 +1231,6 @@ body.light{
                 .swiper-pagination{
                     margin-top: -10px;
                 }
-            }
-        }
-        .section-recent-portfolio{
-            .carousel-portfolio {
-                // &::before{
-                //     top: -32px;
-                //     right: 10px;
-                // }
             }
         }
     } 
