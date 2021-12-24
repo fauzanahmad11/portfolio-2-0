@@ -184,30 +184,44 @@ body.light .main-header .hero .hero-item {
 
 body.light .main-header .hero .hero-item.star-1 {
   background-position: 26px 153px;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
 }
 
 body.light .main-header .hero .hero-item.star-2 {
   background-position: 389px 448px;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
 }
 
 body.light .main-header .hero .hero-item.star-3 {
   background-position: 149px 177px;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
 }
 
 body.light .main-header .hero .hero-item.dot-1 {
   background-position: 74px 302px;
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
 }
 
 body.light .main-header .hero .hero-item.dot-2 {
   background-position: 105px 133px;
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
 }
 
 body.light .main-header .hero .hero-item.dot-3 {
   background-position: 374px 257px;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
 }
 
 body.light .main-header .hero .hero-item.circle-1 {
   background-position: 414px 184px;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
 }
 
 body.light .main-header .navbar .navbar-nav .nav-item {

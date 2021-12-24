@@ -165,24 +165,31 @@ body.light{
                 animation: upDown 2s ease-in-out infinite;
                 &.star-1{
                     background-position: 26px 153px;
+                    animation-delay: 500ms;
                 }
                 &.star-2{
                     background-position: 389px 448px;
+                    animation-delay: 300ms;
                 }
                 &.star-3{
                     background-position: 149px 177px;
+                    animation-delay: 600ms;
                 }
                 &.dot-1{
                     background-position: 74px 302px;
+                    animation-delay: 700ms;
                 }
                 &.dot-2{
                     background-position: 105px 133px;
+                    animation-delay: 800ms;
                 }
                 &.dot-3{
                     background-position: 374px 257px;
+                    animation-delay: 900ms;
                 }
                 &.circle-1{
                     background-position: 414px 184px;
+                    animation-delay: 200ms;
                     // animation: rotate360 2s ease-in-out infinite;
                 }
             }
