@@ -830,6 +830,36 @@ body.light{
     }   
     
     // Break-points
+    @media screen and (max-width: 426px){
+        .main-header{
+            .hero{
+                position: relative;
+                .hero-item{
+                    &.star-1{
+                        background-position: 63px 84px !important;
+                    }
+                    &.star-2{
+                        background-position: 257px 256px !important;
+                    }
+                    &.star-3{
+                        background-position: 118px 127px !important;
+                    }
+                    &.dot-1{
+                        background-position: 94px 171px !important;
+                    }
+                    &.dot-2{
+                        background-position: 121px 75px !important;
+                    }
+                    &.dot-3{
+                        background-position: 228px ​125px !important;
+                    }
+                    &.circle-1{
+                        background-position: 270px 64px !important;
+                    }
+                }
+            }
+        }
+    }
     @media screen and (max-width: $sm) {
         .section-previous-portfolio{
             margin-top: 1rem;
@@ -846,32 +876,32 @@ body.light{
             //     padding: 0;
             // }
             
-        .hero{
-            position: relative;
-            .hero-item{
-                &.star-1{
-                    background-position: 76px 111px;
-                }
-                &.star-2{
-                    background-position: 340px 326px;
-                }
-                &.star-3{
-                    background-position: 150px 149px;
-                }
-                &.dot-1{
-                    background-position: 118px 221px;
-                }
-                &.dot-2{
-                    background-position: 155px 91px;
-                }
-                &.dot-3{
-                    background-position: 314px 174px;
-                }
-                &.circle-1{
-                    background-position: 345px 93px;
+            .hero{
+                position: relative;
+                .hero-item{
+                    &.star-1{
+                        background-position: 76px 111px;
+                    }
+                    &.star-2{
+                        background-position: 340px 326px;
+                    }
+                    &.star-3{
+                        background-position: 150px 149px;
+                    }
+                    &.dot-1{
+                        background-position: 118px 221px;
+                    }
+                    &.dot-2{
+                        background-position: 155px 91px;
+                    }
+                    &.dot-3{
+                        background-position: 314px 174px;
+                    }
+                    &.circle-1{
+                        background-position: 345px 93px;
+                    }
                 }
             }
-        }
             &.portfolio{
                 padding-bottom: 0;
             }
