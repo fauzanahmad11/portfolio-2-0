@@ -732,6 +732,16 @@ body.light{
             }
         }
     }
+    .section-contact{
+        background-color: $cl-dark-blue;
+        padding: 100px 0;
+        margin-top: 230px;
+        .section-head{
+            *{
+                color:$text-primary;
+            }
+        }
+    }
     .error-page{
         color: $text-head-primary;
     }
@@ -849,6 +859,7 @@ body.light{
             }
         }
     }
+    
 
     .tooltip.bs-tooltip-top .tooltip-arrow::before {
         border-top-color: $cl-yellow;

@@ -945,6 +945,16 @@ body.light .section-education-content .education-item ul li a {
   color: #1081E8;
 }
 
+body.light .section-contact {
+  background-color: #0F2851;
+  padding: 100px 0;
+  margin-top: 230px;
+}
+
+body.light .section-contact .section-head * {
+  color: #ffffff;
+}
+
 body.light .error-page {
   color: #0F2851;
 }
