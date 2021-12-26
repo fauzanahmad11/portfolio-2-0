@@ -946,12 +946,24 @@ body.light .section-education-content .education-item ul li a {
 }
 
 body.light .section-contact {
-  background-color: #0F2851;
-  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
   margin-top: 230px;
 }
 
 body.light .section-contact .section-head * {
+  color: #ffffff;
+}
+
+body.light .section-contact .section-content .form input, body.light .section-contact .section-content .form textarea {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+body.light .section-contact .section-content .form label {
   color: #ffffff;
 }
 
