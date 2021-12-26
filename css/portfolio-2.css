@@ -959,7 +959,7 @@ body.light .section-contact .section-head * {
 
 body.light .section-contact .section-content .form input, body.light .section-contact .section-content .form textarea {
   background-color: transparent;
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   color: #ffffff;
 }
 
